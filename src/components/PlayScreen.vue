@@ -1,3 +1,16 @@
 <template>
-    <h1 class="mainTitle">Good Luck Have Fun</h1>
+  <div>
+    <h1>Good Luck and Have Fun</h1>
+    <CardFlip />
+  </div>
 </template>
+
+<script>
+import CardFlip from "./Card";
+
+export default {
+  components: {
+    CardFlip,
+  },
+};
+</script>
