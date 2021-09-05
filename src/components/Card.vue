@@ -6,10 +6,10 @@
 			@click="onToggleFlipCard()"
 		>
 			<div class="cardFace faceFront">
-				<div class="cardContet">Mat Truoc</div>
+				<div class="cardContent">Mat Truoc</div>
 			</div>
 			<div class="cardFace faceBack">
-				<div class="cardContet">mat Sau</div>
+				<div class="cardContent">Mat Sau</div>
 			</div>
 		</div>
 	</div>
@@ -46,10 +46,6 @@ export default {
 	transform-style: preserve-3d;
 	cursor: pointer;
 	position: relative;
-}
-
-.cardInner.cardFlipped {
-	transform: rotateY(-180deg);
 }
 
 .cardInner.isFlipped {

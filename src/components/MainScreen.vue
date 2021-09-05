@@ -24,6 +24,7 @@
 
 <script>
 export default {
+	emits: ["onStart"],
 	methods: {
 		onStart(totalCard) {
 			this.$emit("onStart", { totalCard });
