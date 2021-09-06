@@ -1,7 +1,6 @@
 <template>
-	<div id="mainScreen">
+	<div id="playScreen">
 		<h1>Good Luck and Have Fun</h1>
-		<div>{{cardsContext}}</div>
 		<CardFlip v-for="(card, index) in cardsContext" :key="index"/>
 	</div>
 </template>

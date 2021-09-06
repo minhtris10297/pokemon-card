@@ -2,7 +2,6 @@
 	<div class="root">
 		<MainScreen v-if="gameState === 'prepare'" @onStart="changeState($event)" />
 		<PlayScreen v-if="gameState === 'play'" :cardsContext="setting.cardsContext"/>
-		<div>{{setting.cardsContext}}</div>
 		<FunnyFooter />
 	</div>
 </template>

@@ -37,6 +37,7 @@ export default {
 	height: 120px;
 	margin-right: 1rem;
 	margin-bottom: 1rem;
+	padding: 0.5	rem;
 }
 
 .cardInner {
@@ -60,7 +61,6 @@ export default {
 	backface-visibility: hidden;
 	overflow: hidden;
 	border-radius: 1rem;
-	padding: 1rem;
 	box-shadow: 0 3px 18px 3px rgba(0, 0, 0, 0.2);
 }
 
